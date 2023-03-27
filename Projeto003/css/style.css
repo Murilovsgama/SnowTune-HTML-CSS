@@ -1,0 +1,459 @@
+/* RESET CSS */
+*:before{
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'open sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* HOME */
+
+
+body{
+    font-family: Arial;
+    line-height: 1.5;
+    min-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(rgba(22, 172, 152, 0.123)50%, rgba(22, 172, 152, 0.116)50%), url(../img/snow.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+/* HOME */
+
+/* LOGO */
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    font-size: 33px;
+    float: left;
+    margin-top: 20px;
+    text-shadow: 0 2px #0dd5be;
+}
+
+.logo:hover{
+    color: #0dd5be;
+    text-shadow: 0 2px #ffffff;
+}
+
+/* LOGO */
+
+/* MENU */
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 75px;
+    margin-top: 33px;
+    font-size: 17px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #0dd5be;
+}
+
+.menu2{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.menu-letras{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    padding: px;
+}
+
+.menu-letras:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #0dd5be;
+
+    transition: width 0.5s ease-in-out;
+}
+
+.menu-letras:hover:before{
+    width: 100%;
+
+}
+
+::placeholder{
+    color: #ffffff;
+    font-family: Arial;
+}
+
+/* MENU */
+
+
+/* PESQUISAR */
+
+.search ::placeholder{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    margin-top: 25px;
+    color: #ffffff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #0dd5be;
+    border: 2px solid #ffffff;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+/* PESQUISAR */
+
+/* DESCRIÇÃO DO SITE */
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.par{
+    background-color:#0dd5be89;
+    border: 1px solid #fff;
+    width: 60%;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.content h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    text-shadow: 0 2px #0dd5be;
+}
+   
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: #0dd5be;
+    box-shadow: 0 0 15px #0dd5be;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cn a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cn:hover{
+    color: #0dd5be;
+    background-color: #fff;
+    box-shadow: 0 0 15px #0dd5be;
+}
+
+.cn a:hover{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: #0dd5be;
+    text-shadow: 0 0 15px #0dd5be;
+}
+
+.content .dev{
+    font-family: Arial;
+    font-weight: bold;
+    color: #0dd5be;
+    text-shadow: 0 2px #ffffff;
+    font-size: 60px;
+    box-shadow: #000;
+}
+
+/* DESCRIÇÃO DO SITE */
+
+/* ÁREA DE LOGIN */
+
+.form{
+    width: 310px;
+    height: 500px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.336)50%, rgba(0, 0, 0, 0.336)50%);
+    position: absolute;
+    border: 1px solid #fff;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 10px 0;
+    justify-content: center;
+    
+
+}
+
+.form h2{
+    width: 260px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 27px;
+    text-shadow: 0 2px 2px #0dd5be;
+    background-color:transparent;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    box-shadow: 1px 1px 25px 1px;
+}
+
+.form input{
+    width: 260px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #0dd5be;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form .link1{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link1 a{
+    text-decoration: none;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: #0dd5be;
+}
+
+.btn1{
+    width: 100px;
+    height: 40px;
+    background: #0dd5be;
+    box-shadow: 0 1px 10px 0px #ffffff;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.5 ease;
+}
+
+.btn1:hover{
+        color: #0dd5be;
+        box-shadow:0 0 15px #0dd5be;
+        text-shadow: 0 0 15px #0dd5be; 
+        transition: 0.5 ease;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.liw{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.rede1{
+    display: grid;
+    grid-template-columns: repeat(7, 0.5fr);
+    grid-gap: 10px;
+    cursor: pointer;
+    justify-content:center;
+    margin-left: -10px;
+    padding-left: -10px;
+}
+
+.rede1 li{
+    position: relative;
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    background: #17151570;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    transition: .5s;
+    border: 1px solid #fff;
+    }
+
+.rede1 li:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #0dd5be;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+    border: 1px solid #0dd5be;
+}
+
+.rede1 li:hover:before{
+    transform: scale(1.2);
+    box-shadow:
+                0 0 15px #0dd5be;
+    filter: blur(3px);
+    border: 1px solid #0dd5be;
+}
+
+.rede1 li:hover{
+    color: #0dd5be;
+    box-shadow:
+                 0 0 15px #0dd5be;
+    text-shadow: 0 0 15px #0dd5be;
+    border: 1px solid #0dd5be;
+}
+
+.form ::placeholder{
+    text-decoration: none;
+    color: #ffffffce;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ÁREA DE LOGIN */
